@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Color on Click</title>
+    <title>Change Color and Text on Click</title>
     <style>
         #myElement {
             width: 200px;
@@ -21,9 +21,11 @@
 
 <script>
     document.getElementById("myElement").addEventListener("click", function() {
-        this.style.backgroundColor = "red";
+        this.style.backgroundColor = "red";  // Change background color to red
+        this.textContent = "Hi";             // Change text to "Hi"
     });
 </script>
 
 </body>
 </html>
+
